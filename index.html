@@ -6,49 +6,59 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
  <link rel="stylesheet" href="./css/style.css">
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
 </head>
-<body>
-  <header>
-    <img src="./Images/logo.svg" alt="">
+<body class="epilogue-medeum">
+  <header class="flx">
+    <div class="flx">
+      <img src="./Images/logo.svg" alt="Snap company logo">
+      <nav>
+        <ul class="flx">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
   
-    <nav>
-      <ul>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Company</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </nav>
-  
-    <button>Login</button>
-   <button>
-     Register
-    </button>
-  </header>
+<div class="flx">
+      <button>Login</button>
+     <button>
+       Register
+      </button>
+</div>  
+</header>
 
  <main>
-   <section>
-     
-     <div>
-       <h1>Make remote work</h1>
-      
-       <p>
-          Get your team in sync, no matter your location. Streamline processes, 
-          create team rituals, and watch productivity soar.
-        </p>
-          <a href="#">Learn more</a>
-     </div>
-     <div>
-      <img src="./Images/client-databiz.svg" alt="">
-      <img src="./Images/client-audiophile.svg" alt="">
-      <img src="./Images/client-meet.svg" alt="">
-      <img src="./Images/client-maker.svg" alt="">
-     </div>
+   <section class="hero flx" >
+     <div class="">
+       <div class="">
+         <h1>Make remote work</h1>
+         <p>
+            Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.
+          </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="flx">
+            <img src="./Images/client-databiz.svg" alt="">
+            <img src="./Images/client-audiophile.svg" alt="">
+            <img src="./Images/client-meet.svg" alt="">
+            <img src="./Images/client-maker.svg" alt="">
+          </div>
+        </div>
+        <div class="hero-bg"></div>
    </section>
  </main>
-  
+
+  <!-- <footer></footer> -->
   
 </body>
 </html>
